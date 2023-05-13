@@ -1,0 +1,26 @@
+// Fonts //
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$main-font: 'Inter', sans-serif;
+
+$heading-1: 700 96px/67px $main-font;
+$heading-2: 700 48px/58px $main-font;
+$heading-3: 400 20px/28px $main-font;
+$heading-4: 400 16px/22px $main-font;
+/* Heading 1-96 Bold */
+
+
+.title {
+    font: $heading-1;
+    color: $White;
+}
+
+.sub-title {
+    font: $heading-2;
+    color: $Primary-Black;
+}
+
+.p1 {
+    font: $heading-4;
+
+}

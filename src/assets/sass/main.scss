@@ -1,13 +1,8 @@
-// Variables
+// Variables //
 @import './variable/color';
+@import './variable/fonts';
 
-// Global style
+
+// Global //
 @import './global/reset.scss';
-@import './global/fonts.scss';
-
-
-// Components
-
-
-// Pages
-@import './pages/blog.scss';
+@import './global/index.scss';
