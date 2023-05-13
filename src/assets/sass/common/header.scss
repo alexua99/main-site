@@ -1,0 +1,13 @@
+.header{
+    &__hamb-btn{
+        display: none;
+    }
+    &__nav-list{
+        display: flex;
+        gap: 40px;
+        list-style: none;
+    }
+        &__nav-link{
+            
+        }
+}
