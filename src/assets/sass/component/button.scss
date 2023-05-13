@@ -3,8 +3,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: red;
+  gap: 10px;
+  padding: 12px 38px;
+  letter-spacing: 0.06em;
+  background: $Primary-Red;
+  color: $White;
+  font: $heading-5-1-sb;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+
   &--line {
-    background: blue;
+    padding: 12px 26px;
+    background: transparent;
+    color: $Primary-Black;
+    border: 1px solid $Primary-Dark-Gray;
+  }
+
+  &--small {
+    padding: 10px 38px;
   }
 }
