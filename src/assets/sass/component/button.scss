@@ -1,0 +1,10 @@
+.btn-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: red;
+  &--line {
+    background: blue;
+  }
+}
