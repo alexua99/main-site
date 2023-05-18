@@ -1,13 +1,104 @@
 .header{
-    &__hamb-btn{
+    // background буде зміюватись при зміні background-картинки кожної сторінки
+    background-color: rgb(12, 12, 12); 
+    padding: 35px 0;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    &__logo{
+        margin-right: 20px;
+    }
+    &__img-desc{
+        width: 163px;
+        height: 43px;
+    }
+    &__img-mob{
         display: none;
+    }
+    &__hamb-btn{
+        position: relative;
+        display: none;
+        width: 24px;
+        height: 18px;  
+    }
+    #hamb-checkbox{
+        display: none;
+    }
+    &__label-x{
+        display: none;
+    }
+    &__hamb-line{
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 24px;
+        height: 2px;
+        background-color: $White;
+        &--top{
+            top: 0;
+        }
+        &--bottom{
+            top: 16px;
+        }
     }
     &__nav-list{
         display: flex;
         gap: 40px;
         list-style: none;
     }
-        &__nav-link{
-            
+    &__nav-link{
+        color: $White;
+        font: $heading-5;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
         }
+        &--active{
+            font: $heading-5-1-sb;
+        }
+    }
+    @media (max-width: $medium-devices){
+        &__nav-list{
+            max-height: 0;
+            overflow: hidden;
+            flex-direction: column;
+        }
+        &__hamb-btn{
+            display: block;
+            margin-right: 24px;
+            cursor: pointer;
+        }
+         &__img-desc {
+            display: none;
+        }
+        &__img-mob {
+            display: block;
+            width: 163px;
+            height: 43px;
+        }
+        &__hamb-checkbox{
+            display: none;
+        }
+        &__label-x{
+            display: none;
+            color: $White;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        &__hamb-checkbox:checked~.header__nav-list {
+            max-height: 2000px;
+        }
+        &__hamb-checkbox:checked~ &__label {
+            display: none;
+        }
+        &__hamb-checkbox:checked~ &__label-x {
+            display: block;
+        }
+        &__hamb-checkbox:checked + .header__logo {
+            display: none;
+        }
+    }
 }

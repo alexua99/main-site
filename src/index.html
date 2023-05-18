@@ -14,38 +14,58 @@
 
     <div class="wrapper">
         <header class="header"> 
-            <div class="container">
-                <a class="logo" href="/">
-                    <img src="" alt="logo">
+            <div class="container header__container">
+                <a class="header__logo" href="/">
+                    <img class="header__img-desc"  src="./img/logo-header-desc.svg" alt="logo" width="100px">
+                    <img class="header__img-mob" src="./img/logo-header-mob.svg" alt="">
                 </a>
                 <nav>
-                    <div class="header__hamb-btn">
-                        x
-                    </div>
+                    <input type="checkbox" id="hamb-checkbox" class="header__hamb-checkbox">
+                    <label for="hamb-checkbox" class="header__label">
+                        <div class="header__hamb-btn">
+                            <div class="header__hamb-line header__hamb-line--top"></div>
+                            <div class="header__hamb-line header__hamb-line--middle"></div>
+                            <div class="header__hamb-line header__hamb-line--bottom"></div>
+                        </div>
+                    </label>
+                   
+                    <label for="hamb-checkbox" class="header__label-x">
+                       X
+                    </label>
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
+                            <a class="header__nav-link header__nav-link--active" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
                             <a class="header__nav-link" href="#">
-                                Home
+                                About Course
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Home
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">
+                                Enroll
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Home
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">
+                                Mentors
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Home
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">
+                                Course Schedule
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Home
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">
+                                Contact Us
                             </a>
                         </li>
                     </ul>
@@ -53,8 +73,50 @@
             </div>
         </header>
         <h1 class="title">Test</h1>
-    </div>
+    
 
+    <footer class="footer">
+        <div class="container footer__container">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__text">
+                        FOOTER
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    </div>
 
     <!--Обовязково додавати потрібно для JS -->
     <script> var exports = {}; </script>

@@ -2,3 +2,9 @@ body {
     font-family: $main-font;
     color: $Primary-Dark-Gray;
 }
+
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
