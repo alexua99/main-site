@@ -1,0 +1,30 @@
+.footer{
+    // 1. для мобільного прибрати відступи по бокам "+"
+    // 2. прибрати скрол-бари "+"
+    // 3. зробити гілку , запушити і скинути в чат "+"
+    background-color: $Primary-Dark-Gray;
+
+
+
+    &__container {
+        padding: 56px 44px;  
+        }
+    &__list {
+        justify-content: space-between;
+        display: flex; 
+        align-items: center;
+        gap: 80px;
+        list-style: none;
+        overflow: hidden;    
+    }
+    &__text{
+        color: $Primary-Mid-Gray;
+        font: $heading-3;
+    }
+
+    @media (max-width: $medium-devices){
+        &__container {
+            padding: 56px 0;
+        }
+    }
+}
