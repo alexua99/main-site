@@ -13,22 +13,85 @@ $heading-4: 400 16px/22px $main-font;
 $heading-4-1-rl: 400 16px/22px $main-font;
 $heading-4-2-m: 500 16px/22px $main-font;
 $heading-4-3-b: 700 16px/22px $main-font;
+$heading-4-4-sb: 600 16px/22px $main-font;
 $heading-5: 400 14px/20px $main-font;
 $heading-5-1-sb: 600 14px/20px $main-font;
+$heading-6: 400 12px/17px $main-font;
+$heading-6-1-rs: 400 12px/17px $main-font;
 /* Heading 1-96 Bold */
 
 
-.title {
+.heading-1 {
     font: $heading-1;
     color: $White;
 }
 
-.sub-title {
+.heading-2 {
     font: $heading-2;
     color: $Primary-Black;
 }
 
-.p1 {
-    font: $heading-4;
+.heading-3 {
+    font: $heading-3;
+    color: $Primary-Dark-Gray;
+}
 
+.heading-3-2-m {
+    font: $heading-3-2-m;
+    color: $Primary-Black;
+}
+
+.heading-3-1-sb {
+    font: $heading-3-1-sb;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-3-1-b {
+    font: $heading-3-1-b;
+    color: $Primary-Black;
+}
+
+.heading-4 {
+    font: $heading-4;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-4-1-rl {
+    font: $heading-4-1-rl;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-4-2-m {
+    font: $heading-4-2-m;
+    color: $White;
+}
+
+.heading-4-3-b {
+    font: $heading-4-3-b;
+    color: $Primary-Black;
+}
+
+.heading-4-4-sb {
+    font: $heading-4-4-sb;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-5 {
+    font: $heading-5;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-5-1-sb {
+    font: $heading-5-1-sb;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-6 {
+    font: $heading-6;
+    color: $Primary-Dark-Gray;
+}
+
+.heading-6-1-rs {
+    font: $heading-6-1-rs;
+    color: $Primary-Dark-Gray;
 }
