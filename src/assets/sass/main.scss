@@ -1,5 +1,6 @@
 // Variables //
 @import './variable/color';
+@import './variable/media';
 @import './variable/fonts';
 
 
@@ -10,3 +11,13 @@
 
 // Component //
 @import './component/button.scss';
+
+
+
+// Common //
+
+@import './common/header.scss';
+@import './common/footer.scss';
+
+@import './component/fields.scss';
+
