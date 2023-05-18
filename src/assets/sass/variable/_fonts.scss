@@ -61,9 +61,15 @@ $heading-6-1-rs: 400 12px/17px $main-font;
     color: $Primary-Dark-Gray;
 }
 
-.heading-4-2-m {}
+.heading-4-2-m {
+    font: $heading-4-2-m;
+    color: $White;
+}
 
-.heading-4-3-b {}
+.heading-4-3-b {
+    font: $heading-4-3-b;
+    color: $Primary-Black;
+}
 
 .heading-4-4-sb {
     font: $heading-4-4-sb;
@@ -80,23 +86,12 @@ $heading-6-1-rs: 400 12px/17px $main-font;
     color: $Primary-Dark-Gray;
 }
 
-.heading-6 {}
+.heading-6 {
+    font: $heading-6;
+    color: $Primary-Dark-Gray;
+}
 
-.heading-6-1-rs {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.p1 {
-    font: $heading-4;
-
+.heading-6-1-rs {
+    font: $heading-6-1-rs;
+    color: $Primary-Dark-Gray;
 }
